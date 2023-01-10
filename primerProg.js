@@ -78,3 +78,5 @@ arrayPalabras.forEach( palabra => console.log(palabra))
 console.log("V2 split----------------")
 palabras.split(" ").forEach(palabra => console.log(palabra))
 
+
+
