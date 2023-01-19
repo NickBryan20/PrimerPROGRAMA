@@ -26,20 +26,3 @@ foreach: recorre todos los elementos del vector
 vector.forEach((num,index)=>{
     console.log("Elemento: ",num,index)
 })
-
-//1)Se tiene una cadena de caracteres. Se pide diseñar la función que devuelve la cadena sin consonantes
-//Ejemplo: Hola Esmeraldas
-//Resultado esperado: "oa Eeaa"
-//Utilice filter
-const vocales=['a','e','i','o','u']
-const Consonante="Hola Esmeraldas"
-const sinConsonates=Consonante.split("")
-console.log(sinConsonates[1])
-
-//2)Determine si todos los elementos de la matriz son positivos
-
-const MatrizNumeros=[[1,2,3,4],[4,5,6,7],[7,8,9,10]]
-const positivos=MatrizNumeros.every(elemento=>{
-    return elemento > 0
-})
-console.log("¿Tiene solamente números positivos?",positivos)
