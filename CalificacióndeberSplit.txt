@@ -1,0 +1,3 @@
+Calificación 0.7/1.0
+
+El ejercicio 3 debe recibir un array de cadenas, no un array de eneteros. Además debe crear una función
